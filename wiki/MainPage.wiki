@@ -1,0 +1,19 @@
+#summary The HAL and what needs to be done.
+
+= Introduction =
+
+Linux was in need of wireless drivers from Atheros. Thus, Atheros gave Sam Leffler(under an NDA) access to proprietary specifications to build a driver for Linux to support Atheros devices. Sam Leffler took an approach of segmenting the driver. Below is a general(very over simplified) idea of what the driver is comprised of:
+
+- The HAL. This contains two portions, a binary portion(currently in hal.o) which is currently maintained by Sam Leffler, which is totally operating system independent, and an open source portion(most of which is in ah_os.c/ah_os.h) which contains the OS-dependant parts of the HAL. The two link together (on Linux) to form an LKM(Loadable Kernel Module) which can be accessed by the driver.
+
+- The 802.11 stack. In osxhal's case, kismac will be providing this, as the primary goal of the project is to enable sniffing/injection.
+
+- The driver. This will basically have to be developed from scratch, but it is more of a shell than anything, since all the functions which the driver needs will be implemented in the HAL kext.
+
+= Why the HAL? =
+The HAL is a major resource which provides device support for a plethora of devices, compared to a driver which supports only a single devices. Thus, this will enable kismac to work with all sorts of different devices. Additionally, it is great that the binary portion of the HAL is totally independent. This allows us to reuse large parts of madwifi's "code" without alteration!
+
+= What needs to be done? =
+As of now, there is a shell of a project derived from the current HAL headers/sources and a previous project which Mick(the old maintainer of kismac) made up two years ago to work with OpenHAL(which we are not using). Mick's code is very much old and legacy, but it was included sheerly for reference. The main code you should pay attention to is in the HAL directory, specifically ah_os.c and ah_os.h). The project currently compiles with 650 errors(most of which are due to the old legacy project mick made up, 247 due to the new HAL code).
+
+Most of the HAL code in ah_os.c, ah_os.h and the other files in the HAL directory other than hal.o is heavily OS dependant. This code is tied to run on the Linux kernel. Thus, we need to strip out the stuff dealing with the Linux kernel, and put in the appropriate stuff for Mac OSX(kext functions). Once this is done, we'll have a working HAL on Mac OSX, and we can start development of a driver.
