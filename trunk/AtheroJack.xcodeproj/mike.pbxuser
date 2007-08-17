@@ -1,0 +1,232 @@
+// !$*UTF8*$!
+{
+	005DA61A06C8D7BF00ACF77D /* WiFiController.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {706, 8666}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 197}, {706, 429}}";
+			sepNavWindowFrame = "{{61, 273}, {745, 558}}";
+		};
+	};
+	005DA61B06C8D7BF00ACF77D /* WiFiController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 2380}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {1090, 558}}";
+			sepNavWindowFrame = "{{61, 144}, {1129, 687}}";
+		};
+	};
+	005DA61E06C8D7BF00ACF77D /* WiFiLogger.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 1218}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {1090, 558}}";
+			sepNavWindowFrame = "{{107, 102}, {1129, 687}}";
+		};
+	};
+	005DA61F06C8D7BF00ACF77D /* WiFiPower.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1092, 3724}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 2604}, {1092, 558}}";
+			sepNavWindowFrame = "{{15, 186}, {1131, 687}}";
+		};
+	};
+	005DA62006C8D7BF00ACF77D /* WiFiUserClient.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 5376}}";
+			sepNavSelRange = "{1195, 21}";
+			sepNavVisRect = "{{0, 440}, {1090, 558}}";
+			sepNavWindowFrame = "{{61, 144}, {1129, 687}}";
+		};
+	};
+	005DA62106C8D7BF00ACF77D /* WiFiUserClient.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 1092}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {1090, 558}}";
+			sepNavWindowFrame = "{{84, 123}, {1129, 687}}";
+		};
+	};
+	005DA62206C8D7BF00ACF77D /* WiFiUserInterface.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1092, 1876}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 1318}, {1092, 558}}";
+			sepNavWindowFrame = "{{130, 81}, {1131, 687}}";
+		};
+	};
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeTarget = 32D94FC30562CBF700B6AF17 /* AtheroJack */;
+		addToTargets = (
+			32D94FC30562CBF700B6AF17 /* AtheroJack */,
+		);
+		breakpointsGroup = 27ECFB8E0C7090BE00C6D1E0 /* XCBreakpointsBucket */;
+		codeSenseManager = 2766F1D20C6FC337001A2AF4 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					241,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 208980813;
+			PBXWorkspaceStateSaveDate = 208980813;
+		};
+		perUserProjectItems = {
+			27BA8FBD0C74CF910005B741 /* PBXBookmark */ = 27BA8FBD0C74CF910005B741 /* PBXBookmark */;
+			27BA8FBE0C74CFA10005B741 /* PBXBookmark */ = 27BA8FBE0C74CFA10005B741 /* PBXBookmark */;
+			27BA90210C7507840005B741 /* PBXTextBookmark */ = 27BA90210C7507840005B741 /* PBXTextBookmark */;
+			27BA90240C7507840005B741 /* PBXTextBookmark */ = 27BA90240C7507840005B741 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 2766F1D10C6FC337001A2AF4 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	1A224C3EFF42367911CA2CB7 /* AtheroJack.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1064, 1484}}";
+			sepNavSelRange = "{1277, 53}";
+			sepNavVisRect = "{{0, 384}, {1064, 199}}";
+			sepNavWindowFrame = "{{439, 90}, {1129, 687}}";
+		};
+	};
+	1A224C3FFF42367911CA2CB7 /* AtheroJack.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1292, 9072}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {1064, 199}}";
+			sepNavWindowFrame = "{{156, 181}, {1131, 687}}";
+		};
+	};
+	2766F1D10C6FC337001A2AF4 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	2766F1D20C6FC337001A2AF4 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	27BA8FBD0C74CF910005B741 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 27EC00D30C73638800C6D1E0 /* ah_os.c */;
+	};
+	27BA8FBE0C74CFA10005B741 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 27EC00D20C73638800C6D1E0 /* ah_os.h */;
+	};
+	27BA90210C7507840005B741 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27EC00D30C73638800C6D1E0 /* ah_os.c */;
+		name = "#include \"ah.h\"";
+		rLen = 16;
+		rLoc = 2126;
+		rType = 0;
+		vrLen = 1322;
+		vrLoc = 1403;
+	};
+	27BA90240C7507840005B741 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27EC00D20C73638800C6D1E0 /* ah_os.h */;
+		name = "ah_os.h: 81";
+		rLen = 0;
+		rLoc = 3198;
+		rType = 0;
+		vrLen = 1356;
+		vrLoc = 3459;
+	};
+	27EC00D20C73638800C6D1E0 /* ah_os.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 3486}}";
+			sepNavSelRange = "{3198, 0}";
+			sepNavVisRect = "{{0, 1274}, {1090, 610}}";
+			sepNavWindowFrame = "{{1021, 139}, {1129, 739}}";
+		};
+	};
+	27EC00D30C73638800C6D1E0 /* ah_os.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 8204}}";
+			sepNavSelRange = "{2126, 16}";
+			sepNavVisRect = "{{0, 388}, {1090, 610}}";
+			sepNavWindowFrame = "{{1348, 139}, {1129, 739}}";
+		};
+	};
+	27ECFB8E0C7090BE00C6D1E0 /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = "Project Breakpoints";
+		objects = (
+		);
+	};
+	27ECFC6B0C719CC000C6D1E0 /* ah_devid.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 1400}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 842}, {1090, 558}}";
+			sepNavWindowFrame = "{{15, 186}, {1129, 687}}";
+		};
+	};
+	27ECFC6C0C719CC000C6D1E0 /* ah_desc.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 3346}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 236}, {1090, 558}}";
+			sepNavWindowFrame = "{{38, 165}, {1129, 687}}";
+		};
+	};
+	27ECFC6D0C719CC000C6D1E0 /* ah.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1064, 13202}}";
+			sepNavSelRange = "{25753, 23}";
+			sepNavVisRect = "{{0, 9456}, {1064, 199}}";
+			sepNavWindowFrame = "{{518, 103}, {1129, 687}}";
+		};
+	};
+	27ECFC6E0C719CC000C6D1E0 /* ah_soc.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 1554}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 996}, {1090, 558}}";
+			sepNavWindowFrame = "{{130, 81}, {1129, 687}}";
+		};
+	};
+	27ECFC820C719D1100C6D1E0 /* ah_osdep.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1090, 882}}";
+			sepNavSelRange = "{1949, 0}";
+			sepNavVisRect = "{{0, 324}, {1090, 558}}";
+			sepNavWindowFrame = "{{626, 178}, {1129, 687}}";
+		};
+	};
+	27ECFCC60C71AE4900C6D1E0 /* opt_ah.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1064, 199}}";
+			sepNavSelRange = "{0, 18}";
+			sepNavVisRect = "{{0, 0}, {1064, 199}}";
+			sepNavWindowFrame = "{{130, 81}, {1129, 687}}";
+		};
+	};
+	32D94FC30562CBF700B6AF17 /* AtheroJack */ = {
+		activeExec = 0;
+	};
+}
