@@ -1,0 +1,46 @@
+#summary Edits that need to be done!
+#labels TODO
+
+= Introduction =
+
+I got the code to compile, but there are a bunch of missing symbols that are in the code. Here is a list of the undefined symbols:
+
+_ath_hal_sysctl_register
+_ath_hal_sysctl_unregister
+_kfree
+_kmalloc
+_memcmp
+_memcpy
+_memset
+_printk
+_snprintf
+_udelay
+_va_end
+_va_start
+_vsnprintf
+
+If you could write up a function for these(or suggest a darwin alternative), I would much appreciate it!
+
+Additionally, I had to make the following hacks that need to be fixed to get it to compile:
+
+- In the ath_hal_getuptime function, I had to comment out the following line:
+//return ((jiffies / HZ) * 1000) + (jiffies % HZ) * (1000 / HZ);
+because HZ and jiffies were undefined. Is this linux specific? I doubt this function is important, but I'd like to get everything working as well as possible!
+
+- In the _ath_hal_attach function, I had to comment out the following lines:
+		/*FIX THIS!
+		if (!try_module_get(THIS_MODULE)) {
+			//printk(KERN_WARNING "%s: try_module_get failed\n",__func__);
+			_ath_hal_detach(ah);
+			return NULL;
+		}*/
+because try_module_get (obviously) won't work on Mac OSX. Any ideas what could be substituted here?
+
+- In ah_os.h I had to make the following two define statements because Darwin doesn't have __iomem or GFP_KERNEL symbols.
+
+#define __iomem
+#define GFP_KERNEL 0
+
+What is the proper thing to define each as on Darwin?
+
+... And that's the list for the TODO for the HAL! Please help!
